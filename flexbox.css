@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    font-size:xx-large
+}
+main{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+.arriba{
+    display: flex;
+    border: 1px solid black;
+    margin: 2%;
+    justify-content:center;
+}
+.arriba > div{
+    width: 25%;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+.medio{
+    display: flex;
+    margin: 2%;
+
+}
+.medio > div{
+    width: 25%;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 0.1%;
+    align-items: center;
+    justify-content:center;
+
+}
+
+
+
+.semi-bajo{
+    display: flex;
+    border: 1px solid black;
+    margin: 2%;
+    justify-content:center;
+}
+.contenedor1{
+    display: flex;
+    width: 60%;
+    border: 1px solid black;
+    padding: 3%;
+    justify-content:center;
+    margin: 2%;
+    flex-wrap: wrap;
+}
+.vertical{
+    display:flex;
+    width: 25%;
+    border: 1px solid black;
+    padding: 22.5%;
+    margin: 2%;
+    flex: 1 1 calc(50% - 10%);
+    align-items: center;
+    justify-content:center;
+}
+.horizontal{
+    display: flex;
+    width: 25%;
+    border: 1px solid black;
+    padding: 7%;
+    margin: 2%;
+    flex: 1 1 calc(50% - 10%);
+    align-items: center;
+    justify-content:center;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
+    padding: 1%;
+    justify-content:center;
+    margin: 2%;
+}
+.contenedor2 > div{
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+    margin: 5%;
+    justify-content:center;
+    margin: auto;
+    padding: 12.5%;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+.bajo{
+    display: flex;
+    border: 1px solid black;
+    margin: 2%;
+    justify-content: space-between;
+}
+.bajo > div{
+    width: 25%;
+    border: 1px solid black;
+    padding: 3%;
+    margin: 2%;
+    align-items: center;
+    justify-content:center;
+}

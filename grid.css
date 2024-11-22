@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    font-size:xx-large
+}
+main{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+.arriba{
+    display: flex;
+    border: 1px solid black;
+    margin: 2%;
+    justify-content:center;
+    grid-template-columns: repeat(4,1fr);
+}
+.arriba > div{
+    width: 25%;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+
+.medio{
+    display: grid;
+    margin: 2%;
+    justify-content:center;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.medio > div{
+    border: 1px solid black;
+    padding: 2%;
+    margin: 0.5%;
+}
+
+
+
+.semi-bajo{
+    display: grid;
+    border: 1px solid black;
+    margin: 2%;
+    justify-content:center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 60% 40%;
+    gap: 4%;
+    padding: 3%;
+}
+.contenedor1{
+    display: grid;
+    border: 1px solid black;
+    padding: 3%;
+    justify-content:center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3%;
+}
+.vertical{
+    border: 1px solid black;
+    padding: 22.5%;
+    padding-top: 35%;
+
+}
+.horizontal{
+    border: 1px solid black;
+    padding: 7%;
+    grid-column: 1 / -1; 
+    padding-top: 15%;
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border: 1px solid black;
+    padding: 5%;
+    justify-content:center;
+}
+.contenedor2 > div{
+    border: 1px solid black;
+    margin: 5%;
+    justify-content:center;
+    margin: auto;
+    padding: 12.5%;
+    margin:2%
+}
+
+
+
+.bajo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid black;
+    margin: 2%;
+    gap:40%
+}
+.bajo > div{
+    border: 1px solid black;
+    padding: 10%;
+    margin: 2%;
+}
